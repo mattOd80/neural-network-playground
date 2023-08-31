@@ -75,9 +75,6 @@ Atomic Actions are the foundational elements of the game system. By understandin
 
 
 
- Certainly. Let's delve into the advanced usage of a deeply layered set of Atomic Actions to achieve a complex task, such as an AI piloting a flight simulator.
-
----
 
 **Advanced Atomic Actions for AI Flight Simulation**
 
@@ -170,3 +167,75 @@ Neural networks can be trained to predict the best Atomic Actions based on curre
 **7. Conclusion**
 
 By layering Atomic Actions and integrating them with advanced AI techniques, we can achieve complex tasks like piloting a flight simulator. This approach ensures modularity, adaptability, and precision in AI-driven flight simulation.
+
+Certainly. Let's outline the decision process and guidelines for creating new Atomic Actions and combining multiple Atomic Actions, considering the current documentation and our recent additions.
+
+---
+
+**Decision Process and Guidelines for Atomic Actions**
+
+## Introduction
+
+Creating and combining Atomic Actions requires a structured approach to ensure they align with the system's goals and maintain consistency. This document provides guidelines for this process.
+
+## Table of Contents
+
+1. Decision Process for Creating a New Atomic Action
+2. Guidelines for Combining Multiple Atomic Actions
+3. Integration with Existing Documentation
+4. Best Practices
+5. Conclusion
+
+---
+
+**1. Decision Process for Creating a New Atomic Action**
+
+- **Identify the Need**: Understand the specific requirement or gap in the current system that necessitates a new Atomic Action.
+  
+- **Define the Action**: Clearly describe what the action does, its inputs, outputs, and side effects.
+  
+- **Check for Overlaps**: Ensure the new action doesn't duplicate the functionality of existing actions.
+  
+- **Prototype and Test**: Create a basic version of the action and test it in isolated scenarios.
+  
+- **Document**: Update the documentation to include the new Atomic Action, its purpose, and usage examples.
+
+---
+
+**2. Guidelines for Combining Multiple Atomic Actions**
+
+- **Define the Objective**: Understand the complex task or behavior you aim to achieve by combining actions.
+  
+- **Sequence Appropriately**: Determine the correct order of execution for the actions.
+  
+- **Check for Dependencies**: Ensure that the output or state change of one action doesn't negatively impact another.
+  
+- **Test the Combination**: Before full integration, test the combined actions in a controlled environment.
+  
+- **Document the Combination**: Describe how and why the actions are combined, including any potential pitfalls or considerations.
+
+---
+
+**3. Integration with Existing Documentation**
+
+- **Consistency**: Ensure that the terminology and structure of the new additions align with the existing documentation.
+  
+- **Cross-Reference**: Where relevant, link to sections of the existing documentation that provide context or deeper dives.
+  
+- **Update the Overview**: If a significant number of new Atomic Actions are added, consider updating overview documents or summaries.
+
+---
+
+**4. Best Practices**
+
+- **Modularity**: Always design Atomic Actions to be as granular and independent as possible.
+  
+- **Reusability**: Aim to create actions that can be used in multiple scenarios or games.
+  
+- **Documentation**: Continuously update documentation to reflect changes, additions, or deprecations.
+
+---
+
+**5. Conclusion**
+
+Creating and combining Atomic Actions is a dynamic process that evolves with the system's needs. By following a structured decision process and adhering to best practices, we can ensure that these actions remain consistent, effective, and aligned with the system's goals.
